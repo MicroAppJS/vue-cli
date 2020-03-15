@@ -1,7 +1,7 @@
 {
     "name": "@micro-app/vue-cli",
     "version": "0.0.1",
-    "description": "[Plugin] Vue CLI Plugin for MicroApp Projects.",
+    "description": "[Plugin] adapter Vue CLI plugin.",
     "main": "src/index.js",
     "bin": {
         "micro-app-vue": "bin/micro-app-vue",
