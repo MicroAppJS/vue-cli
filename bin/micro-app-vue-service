@@ -6,4 +6,4 @@ const { argv, service } = require('@micro-app/cli');
 // 注册插件
 require('../src')(service);
 
-service.run('vue', argv);
+service.run('vue-service', argv);

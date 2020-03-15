@@ -1,0 +1,17 @@
+{
+    "name": "simple",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "vue": "node node_modules/@micro-app/vue-cli/bin/micro-app-vue.js",
+        "vue-service": "node node_modules/@micro-app/vue-cli/bin/micro-app-vue-service.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@micro-app/vue-cli": "file:../",
+        "vue": "^2.6.11"
+    }
+}

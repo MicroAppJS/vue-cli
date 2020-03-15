@@ -2,32 +2,25 @@
 
 /* global expect */
 
-const path = require('path');
-
 describe('Command version', () => {
 
-    it('version', () => {
+    it('version', async () => {
 
-        const { service } = require('@micro-app/cli/bin/base');
-
-        service.registerPlugin({
-            id: 'test:VueCLIVersion',
-            link: path.join(__dirname, './version.js'),
-        });
+        const { service } = require('../../../');
 
         const plugin = service.plugins.find(item => item.id === 'cli:plugin-command-version');
         expect(typeof plugin).toEqual('object');
 
-        service.init();
+        await service.init();
 
-        expect(plugin._api).not.toBeUndefined();
-        plugin._api.addCommandVersion({
+        expect(plugin[Symbol.for('api')]).not.toBeUndefined();
+        plugin[Symbol.for('api')].addCommandVersion({
             name: 'a',
             version: 'b',
             description: 'c',
         });
 
-        service.runCommand('version');
+        await service.runCommand('version');
 
         expect(service.commands.version).not.toBeNull();
         expect(service.commands.version).not.toBeUndefined();

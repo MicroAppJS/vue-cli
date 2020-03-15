@@ -1,3 +1,7 @@
 'use strict';
 
-console.log(require.resolve('jest'));
+const { cmd, argv, service } = require('@micro-app/cli');
+
+require('../src')(service);
+
+service.run(cmd, argv);
