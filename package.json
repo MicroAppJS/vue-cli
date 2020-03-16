@@ -49,7 +49,7 @@
         "jest": "^24.9.0"
     },
     "dependencies": {
-        "@micro-app/cli": "^0.3.5",
+        "@micro-app/cli": "^0.3.6",
         "@micro-app/vue-cli-plugin-microapp": "^0.0.2",
         "@vue/cli": "^4.2.3",
         "@vue/cli-service": "^4.2.3",
