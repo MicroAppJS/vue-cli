@@ -1,12 +1,12 @@
 'use strict';
 
+const { service } = require('@micro-app/cli');
+
 /* global expect */
 
 describe('Command version', () => {
 
     it('version', async () => {
-
-        const { service } = require('../../../');
 
         const plugin = service.plugins.find(item => item.id === 'cli:plugin-command-version');
         expect(typeof plugin).toEqual('object');
@@ -14,11 +14,7 @@ describe('Command version', () => {
         await service.init();
 
         expect(plugin[Symbol.for('api')]).not.toBeUndefined();
-        plugin[Symbol.for('api')].addCommandVersion({
-            name: 'a',
-            version: 'b',
-            description: 'c',
-        });
+        require('./index')(plugin[Symbol.for('api')]);
 
         await service.runCommand('version');
 
