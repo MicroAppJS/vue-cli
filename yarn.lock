@@ -1410,10 +1410,10 @@
     "@release-it/conventional-changelog" "^2.0.1"
     release-it "^14.4.1"
 
-"@micro-app/plugin-webpack@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@micro-app/plugin-webpack/-/plugin-webpack-0.0.15.tgz#be27172a1ae54fbd6564df07bc9a8a4daf7f8513"
-  integrity sha512-v01fg0Ru79Oh4eDWSgbutFG5cM4DlJXsPhQ1viQVzk0i0ORe3BBXBpyC/mAxL6hmukpnXpuw7aIZx8I84b2giQ==
+"@micro-app/plugin-webpack@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@micro-app/plugin-webpack/-/plugin-webpack-0.0.16.tgz#992618cc70a6699bd5670341d39fbe05b6cc3e44"
+  integrity sha512-mwlG0pKJdiM2E+lmqCK3UMQfR7yT92pbSQz7Sb7q7yOoI/mTak1qVbtl9tZT385a6kJkdLQwTUH7G5ahitQJSA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/preset-env" "^7.9.5"
@@ -1487,13 +1487,13 @@
     yargs-parser "^18.1.3"
     yargs-unparser "^1.6.4"
 
-"@micro-app/vue-cli-plugin-microapp@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@micro-app/vue-cli-plugin-microapp/-/vue-cli-plugin-microapp-0.1.0.tgz#1116c6e5e704a3aaa7c0fd3445aa1284c9201fa1"
-  integrity sha512-cQDOs1YmMamLRiXZ1K+X6pJck+74U6AI1uQmuIxhiHKSlv3ky1+kCOqCiByMQu5rySrLQWgB/a1XzVvcaml8Yg==
+"@micro-app/vue-cli-plugin-microapp@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@micro-app/vue-cli-plugin-microapp/-/vue-cli-plugin-microapp-0.1.1.tgz#03d55a883b8d4b7686d8c26370cb0cc47fd60505"
+  integrity sha512-iSnHFZ3f2L1YJN4a/a9EoL/lnl/ho+YYBGwzGfJqyDNZMV/6I5TMuMR52G2cfou+4E8VQ8ZBO58KVftn/hEPGg==
   dependencies:
     "@micro-app/cli" "^0.4.0"
-    "@micro-app/plugin-webpack" "^0.0.15"
+    "@micro-app/plugin-webpack" "^0.0.16"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"

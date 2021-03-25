@@ -50,7 +50,7 @@
     },
     "dependencies": {
         "@micro-app/cli": "^0.4.0",
-        "@micro-app/vue-cli-plugin-microapp": "^0.1.0",
+        "@micro-app/vue-cli-plugin-microapp": "^0.1.1",
         "@vue/cli": "^4.5.12",
         "@vue/cli-service": "^4.5.12",
         "@vue/cli-service-global": "^4.5.12"
