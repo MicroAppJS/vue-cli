@@ -1,3 +1,5 @@
+## [0.1.1](https://github.com/MicroAppJS/vue-cli/compare/v0.1.0...v0.1.1) (2021-03-31)
+
 # 0.1.0 (2021-03-25)
 
 
