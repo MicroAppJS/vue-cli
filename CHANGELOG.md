@@ -1,3 +1,11 @@
+## [0.2.1](https://github.com/MicroAppJS/vue-cli/compare/v0.1.1...v0.2.1) (2021-12-20)
+
+
+### Features
+
+* 更新依赖版本 ([6e49a07](https://github.com/MicroAppJS/vue-cli/commit/6e49a078aadd37b47f9065420748157bab8f50b3))
+* 更新版本号 ([c442ce1](https://github.com/MicroAppJS/vue-cli/commit/c442ce15a20d4f47391f0813ca0600d855ff6557))
+
 ## [0.1.1](https://github.com/MicroAppJS/vue-cli/compare/v0.1.0...v0.1.1) (2021-03-31)
 
 # 0.1.0 (2021-03-25)
