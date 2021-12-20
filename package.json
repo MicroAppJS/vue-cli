@@ -43,16 +43,16 @@
     },
     "license": "MIT",
     "devDependencies": {
-        "@micro-app/plugin-deploy": "^0.0.8",
+        "@micro-app/plugin-deploy": "^0.0.9",
         "@types/jest": "^24.9.1",
-        "eslint-config-2o3t": "^2.0.1",
+        "eslint-config-2o3t": "^2.0.2",
         "jest": "^24.9.0"
     },
     "dependencies": {
-        "@micro-app/cli": "^0.4.0",
-        "@micro-app/vue-cli-plugin-microapp": "^0.1.2",
-        "@vue/cli": "^4.5.12",
-        "@vue/cli-service": "^4.5.12",
-        "@vue/cli-service-global": "^4.5.12"
+        "@micro-app/cli": "^0.4.2",
+        "@micro-app/vue-cli-plugin-microapp": "^0.2.1",
+        "@vue/cli": "^4.5.15",
+        "@vue/cli-service": "^4.5.15",
+        "@vue/cli-service-global": "^4.5.15"
     }
 }
