@@ -42,7 +42,7 @@ Examples:
             pkg,
             useBuiltIn: true,
             plugins,
-        });
+        }, api);
     });
 
 };

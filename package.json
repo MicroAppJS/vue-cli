@@ -13,8 +13,8 @@
         "release": "micro-app release",
         "release:alpha": "npm run release -- --preRelease=alpha",
         "release:next": "npm run release -- --preRelease=next",
-        "release:minor": "npm run release minor",
-        "release:patch": "npm run release patch"
+        "release:minor": "npm run release -- minor",
+        "release:patch": "npm run release -- patch"
     },
     "files": [
         "bin",
@@ -50,7 +50,7 @@
     },
     "dependencies": {
         "@micro-app/cli": "^0.4.2",
-        "@micro-app/vue-cli-plugin-microapp": "^0.2.1",
+        "@micro-app/vue-cli-plugin-microapp": "^0.2.3",
         "@vue/cli": "^4.5.15",
         "@vue/cli-service": "^4.5.15",
         "@vue/cli-service-global": "^4.5.15"
