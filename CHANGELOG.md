@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/MicroAppJS/vue-cli/compare/v0.2.1...v0.2.2) (2022-02-14)
+
+
+### Features
+
+* 增强其 build 和 serve 能力 ([b08e1a2](https://github.com/MicroAppJS/vue-cli/commit/b08e1a2e2f3a904be79de9b7276f5f4609933b72))
+
 ## [0.2.1](https://github.com/MicroAppJS/vue-cli/compare/v0.1.1...v0.2.1) (2021-12-20)
 
 
