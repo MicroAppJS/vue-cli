@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/MicroAppJS/vue-cli/compare/v0.2.2...v0.2.3) (2022-09-14)
+
+
+### Features
+
+* update package ([68314df](https://github.com/MicroAppJS/vue-cli/commit/68314dfb80761f7b436b9be91ec3216fa8cd11d3))
+
 ## [0.2.2](https://github.com/MicroAppJS/vue-cli/compare/v0.2.1...v0.2.2) (2022-02-14)
 
 
